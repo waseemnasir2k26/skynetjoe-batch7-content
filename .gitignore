@@ -1,1 +1,4 @@
 node_modules/
+__pycache__/
+*.pyc
+pdfs/_tmp_*.html
