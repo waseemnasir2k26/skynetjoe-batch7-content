@@ -19,7 +19,7 @@ mkdir -p "$TMP"
 # Mapping: v2-source | batch7-name | outro-trim-seconds (probed per video)
 declare -a MAP=(
   "100_percent_ai_code|01-replaced-5k-developer|7"
-  "saas_idea_worthless|02-saas-idea-worthless|19"
+  "saas_idea_worthless|02-saas-idea-worthless|17"
   "five_apps_this_week|03-build-saas-in-48-hours|9"
   "claude_vs_cursor|04-claude-vs-cursor|11"
   "stop_writing_code|05-stop-writing-code|6"
