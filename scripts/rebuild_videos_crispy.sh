@@ -18,16 +18,16 @@ mkdir -p "$TMP"
 
 # Mapping: v2-source | batch7-name | outro-trim-seconds (probed per video)
 declare -a MAP=(
-  "100_percent_ai_code|01-replaced-5k-developer|7"
+  "100_percent_ai_code|01-replaced-5k-developer|0"
   "saas_idea_worthless|02-saas-idea-worthless|17"
-  "five_apps_this_week|03-build-saas-in-48-hours|9"
+  "five_apps_this_week|03-build-saas-in-48-hours|5"
   "claude_vs_cursor|04-claude-vs-cursor|11"
-  "stop_writing_code|05-stop-writing-code|6"
-  "vibe_coding_no_bs|06-vibe-coding-no-bs|9"
-  "zero_dollar_stack|07-zero-dollar-tech-stack|9"
-  "gohighlevel_97|08-gohighlevel-97-month|9"
-  "audit_your_stack|09-audit-your-tech-stack|14"
-  "junior_devs_not_dead|10-junior-devs-not-dead|12"
+  "stop_writing_code|05-stop-writing-code|0"
+  "vibe_coding_no_bs|06-vibe-coding-no-bs|3"
+  "zero_dollar_stack|07-zero-dollar-tech-stack|0"
+  "gohighlevel_97|08-gohighlevel-97-month|0"
+  "audit_your_stack|09-audit-your-tech-stack|0"
+  "junior_devs_not_dead|10-junior-devs-not-dead|0"
 )
 
 # Pre-generate kick drum SFX (60Hz sine, 0.3s decay, mono->stereo)
